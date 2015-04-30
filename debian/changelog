@@ -1,3 +1,9 @@
+linux (3.19.3-2) jessie-wikimedia; urgency=medium
+
+  * Switch to a non-trunk build, using abi=1
+
+ -- Moritz Muehlenhoff <moritz@wikimedia.org>  Thu, 30 Apr 2015 12:22:20 +0200
+
 linux (3.19.3-1~exp1) experimental; urgency=medium
 
   * New upstream stable update:
