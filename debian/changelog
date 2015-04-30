@@ -1,6 +1,8 @@
 linux (3.19.3-2) jessie-wikimedia; urgency=medium
 
-  * Switch to a non-trunk build, using abi=1
+  * Switch to a non-trunk build, using abi=1.
+  * Amend older changelog entries with security issues fixed in 3.19.x
+    so that properly keep track
 
  -- Moritz Muehlenhoff <moritz@wikimedia.org>  Thu, 30 Apr 2015 12:22:20 +0200
 
@@ -8,7 +10,10 @@ linux (3.19.3-1~exp1) experimental; urgency=medium
 
   * New upstream stable update:
     https://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.19.2
+      -> CVE-2015-2830 (956421fbb74c3a6261903f3836c0740187cf038b)
     https://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.19.3
+      -> CVE-2015-2150 (af6fc858a35b90e89ea7a7ee58e66628c55c776b)
+      -> CVE-2015-3331 (ccfe8c3f7e52ae83155cb038753f4c75b774ca8a)
 
  -- maximilian attems <maks@debian.org>  Sun, 29 Mar 2015 20:14:33 +0200
 
