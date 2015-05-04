@@ -74,3 +74,4 @@ features/all/efi-expose-underlying-uefi-firmware-platform-size-to.patch
 # Stable 3.19.x updates
 bugfix/all/stable-3.19.4.patch
 bugfix/all/stable-3.19.5.patch
+bugfix/all/stable-3.19.6.patch

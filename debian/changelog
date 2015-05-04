@@ -1,10 +1,13 @@
-linux (3.19.4-1) jessie-wikimedia; urgency=medium
+linux (3.19.6-1) jessie-wikimedia; urgency=medium
 
   * New upstream stable updates:
     https://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.19.4
     https://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.19.5
     -> CVE-2014-8159 (8494057ab5e40df590ef6ef7d66324d3ae33356b)
-
+    https://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.19.6
+    -> CVE-2015-2922 (6fd99094de2b83d1d4c8457f2c83483b2828e75a)
+    -> CVE-2015-3339 (8b01fc86b9f425899f8a3a8fc1c47d73c2c20543)
+	
  -- Moritz Muehlenhoff <moritz@wikimedia.org>  Mon, 04 May 2015 09:50:51 +0200
 
 linux (3.19.3-2) jessie-wikimedia; urgency=medium
