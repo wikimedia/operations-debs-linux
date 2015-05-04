@@ -70,3 +70,6 @@ bugfix/all/vfs-read-file_handle-only-once-in-handle_to_path.patch
 # Miscellaneous features
 features/all/efi-autoload-efi-pstore.patch
 features/all/efi-expose-underlying-uefi-firmware-platform-size-to.patch
+
+# Stable 3.19.x updates
+bugfix/all/stable-3.19.4.patch
