@@ -1,4 +1,4 @@
-linux (3.19.6-1) jessie-wikimedia; urgency=medium
+linux (3.19.3-3) jessie-wikimedia; urgency=medium
 
   * New upstream stable updates:
     https://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.19.4
