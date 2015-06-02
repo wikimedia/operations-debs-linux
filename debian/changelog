@@ -1,7 +1,17 @@
+linux (3.19.3-5) jessie-wikimedia; urgency=medium
+
+  * New upstream stable update:
+    http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt1
+    -> CVE-2015-2666 (f84598bd7c851f8b0bf8cd0d7c3be0d73c432ff4)
+    -> CVE-2015-0275 (0f2af21aae11972fa924374ddcf52e88347cf5a8)
+    -> CVE-2015-4036 (59c816c1f24df0204e01851431d3bab3eb76719c)
+
+ -- Moritz Muehlenhoff <moritz@wikimedia.org>  Tue, 02 Jun 2015 15:48:55 +0200
+
 linux (3.19.3-4) jessie-wikimedia; urgency=medium
 
   * New upstream stable updates:
-    3.19.7 (no changelog on https://www.kernel.org/pub/linux/kernel/v3.x/):
+    https://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.19.7
     https://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.19.8
     -> CVE-2015-3636 (a134f083e79fb4c3d0a925691e732c56911b4326)
 
