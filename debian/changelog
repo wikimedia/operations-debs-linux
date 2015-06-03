@@ -5,8 +5,10 @@ linux (3.19.3-5) jessie-wikimedia; urgency=medium
     -> CVE-2015-2666 (f84598bd7c851f8b0bf8cd0d7c3be0d73c432ff4)
     -> CVE-2015-0275 (0f2af21aae11972fa924374ddcf52e88347cf5a8)
     -> CVE-2015-4036 (59c816c1f24df0204e01851431d3bab3eb76719c)
+  * Cherry-pick beb39db59d14990e401e235faf66a6b9b31240b0 to fix
+    a remote DoS (no CVE yet)
 
- -- Moritz Muehlenhoff <moritz@wikimedia.org>  Tue, 02 Jun 2015 15:48:55 +0200
+ -- Moritz Muehlenhoff <moritz@wikimedia.org>  Wed, 03 Jun 2015 09:53:05 +0200
 
 linux (3.19.3-4) jessie-wikimedia; urgency=medium
 
