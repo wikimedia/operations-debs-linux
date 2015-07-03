@@ -1,13 +1,13 @@
 linux (3.19.3-6) jessie-wikimedia; urgency=medium
 
   * New upstream stable update:
-  http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt1
-  -> CVE-2015-4001 (b1bb5b49373b61bf9d2c73a4d30058ba6f069e4c)
-  -> CVE-2015-4002 (d114b9fe78c8d6fc6e70808c2092aa307c36dc8e,
-                    9a59029bc218b48eff8b5d4dde5662fd79d3e1a8)
-  -> CVE-2015-4003 (4bf464a5dfd9ade0dda918e44366c2c61fce80b)
-  -> CVE-2015-4700 (3f7352bf21f8fd7ba3e2fcef9488756f188e12be)
-  -> (beb39db59d14990e401e235faf66a6b9b31240b0 also included)
+    http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt1
+    -> CVE-2015-4001 (b1bb5b49373b61bf9d2c73a4d30058ba6f069e4c)
+    -> CVE-2015-4002 (d114b9fe78c8d6fc6e70808c2092aa307c36dc8e,
+                      9a59029bc218b48eff8b5d4dde5662fd79d3e1a8)
+    -> CVE-2015-4003 (4bf464a5dfd9ade0dda918e44366c2c61fce80b)
+    -> CVE-2015-4700 (3f7352bf21f8fd7ba3e2fcef9488756f188e12be)
+    -> (CVE-2015-5364 also included)
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 29 Jun 2015 17:17:31 +0200
 
@@ -19,7 +19,7 @@ linux (3.19.3-5) jessie-wikimedia; urgency=medium
     -> CVE-2015-0275 (0f2af21aae11972fa924374ddcf52e88347cf5a8)
     -> CVE-2015-4036 (59c816c1f24df0204e01851431d3bab3eb76719c)
   * Cherry-pick beb39db59d14990e401e235faf66a6b9b31240b0 to fix
-    a remote DoS (no CVE yet)
+    a remote DoS (CVE-2015-5364)
 
  -- Moritz Muehlenhoff <moritz@wikimedia.org>  Wed, 03 Jun 2015 09:53:05 +0200
 
@@ -111,6 +111,7 @@ linux (3.19.1-1~exp1) experimental; urgency=medium
     - cdc-acm: add sanity checks
     - ntp: Fixup adjtimex freq validation on 32-bit systems (regression in 3.19)
     - udf: Check length of extended attributes and allocation descriptors
+           (CVE-2015-4167)
     - [s390*] KVM: forward hrtimer if guest ckc not pending yet
       (regression in 3.17)
     - [s390*] KVM: base hrtimer on a monotonic clock
