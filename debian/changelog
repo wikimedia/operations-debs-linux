@@ -1,9 +1,12 @@
 linux (3.19.3-7) jessie-wikimedia; urgency=medium
 
-  * New upstream stable update:
+  * New upstream stable updates:
     http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt3
-    -> CVE-2015-1420 (161f873b8913)
+    -> CVE-2015-1420 (161f873b8913), already fixed in 3.16.7-ckt7-1
+       with a Debian-specific patch
     -> CVE-2015-4692 (ce40cd3fc7fa40a6119e5fe6c0f2bc0eb4541009)
+    http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt4
+    -> CVE-2015-3212 (2d45a02d0166caf2627fe91897c6ffc3b19514c4)
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 20 Jul 2015 10:07:54 +0200
 
