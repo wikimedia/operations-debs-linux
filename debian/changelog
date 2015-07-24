@@ -7,6 +7,8 @@ linux (3.19.3-7) jessie-wikimedia; urgency=medium
     -> CVE-2015-4692 (ce40cd3fc7fa40a6119e5fe6c0f2bc0eb4541009)
     http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt4
     -> CVE-2015-3212 (2d45a02d0166caf2627fe91897c6ffc3b19514c4)
+  * Add backport of NMI security patches:
+    Fixes CVE-2015-3290, CVE-2015-3291, CVE-2015-5157
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 20 Jul 2015 10:07:54 +0200
 
