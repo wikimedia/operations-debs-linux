@@ -32,6 +32,7 @@ linux (3.19.3-5) jessie-wikimedia; urgency=medium
     -> CVE-2015-2666 (f84598bd7c851f8b0bf8cd0d7c3be0d73c432ff4)
     -> CVE-2015-0275 (0f2af21aae11972fa924374ddcf52e88347cf5a8)
     -> CVE-2015-4036 (59c816c1f24df0204e01851431d3bab3eb76719c)
+    -> CVE-2015-5706 (f15133df088ecadd141ea1907f2c96df67c729f0)
   * Cherry-pick beb39db59d14990e401e235faf66a6b9b31240b0 to fix
     a remote DoS (CVE-2015-5364, CVE-2015-5366)
 
