@@ -9,6 +9,10 @@ linux (3.19.3-8) jessie-wikimedia; urgency=medium
     http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt6
     -> CVE-2015-5697 (b6878d9e03043695dbf3fa1caa6dfc09db225b16)
     -> CVE-2015-6252 (7932c0bd7740f4cd2aa168d3ce0199e7af7d72d5)
+    http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt7
+    -> CVE-2015-0272 (77751427a1ff25b27d47a4c36b12c3c8667855ac)
+    -> CVE-2015-6937 (74e98eb085889b0d2d4908f59f6e00026063014f)
+    -> CVE-2015-5156 (48900cb6af4282fa0fb6ff4d72a81aa3dadb5c39)
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Wed, 30 Sep 2015 15:20:09 +0200
 
