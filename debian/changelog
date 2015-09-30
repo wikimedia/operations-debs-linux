@@ -1,3 +1,9 @@
+linux (3.19.3-8) jessie-wikimedia; urgency=medium
+
+  * Remove NMI backports, all folded into 3.19.8-ckt5
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Wed, 30 Sep 2015 15:20:09 +0200
+
 linux (3.19.3-7) jessie-wikimedia; urgency=medium
 
   * New upstream stable updates:
