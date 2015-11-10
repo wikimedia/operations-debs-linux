@@ -1,3 +1,9 @@
+linux (3.19.3-9) jessie-wikimedia; urgency=medium
+
+  * Add patch for CVE-2015-5307 (not merged upstream yet)
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 10 Nov 2015 10:46:28 +0100
+
 linux (3.19.3-8) jessie-wikimedia; urgency=medium
 
   * Remove NMI backports, all folded into 3.19.8-ckt5
