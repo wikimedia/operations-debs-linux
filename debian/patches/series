@@ -87,3 +87,4 @@ bugfix/all/stable-3.19.8-ckt7.patch
 bugfix/all/stable-3.19.8-ckt8.patch
 bugfix/all/stable-3.19.8-ckt9.patch
 bugfix/all/CVE-2015-5307.patch
+bugfix/all/CVE-2015-8104.patch
