@@ -1,6 +1,7 @@
 linux (3.19.3-9) jessie-wikimedia; urgency=medium
 
-  * Add patch for CVE-2015-5307 (not merged upstream yet)
+  * Add patches for CVE-2015-5307 and CVE-2015-8104
+  * Bump the ABI to 2
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 10 Nov 2015 10:46:28 +0100
 
