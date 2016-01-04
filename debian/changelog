@@ -1,3 +1,9 @@
+linux (3.19.3-10) jessie-wikimedia; urgency=medium
+
+  * Re-add maintainer scripts for 2 ABI
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 04 Jan 2016 21:19:20 +0100
+
 linux (3.19.3-9) jessie-wikimedia; urgency=medium
 
   * Add patches for CVE-2015-5307 and CVE-2015-8104
