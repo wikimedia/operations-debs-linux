@@ -8,6 +8,12 @@ linux (3.19.3-10) jessie-wikimedia; urgency=medium
     -> CVE-2015-7884 (eda98796aff0d9bf41094b06811f5def3b4c333c)
     -> CVE-2015-7613 (b9a532277938798b53178d5a66af6e2915cb27cf)
     -> CVE-2015-7885 (4b6184336ebb5c8dc1eae7f7ab46ee608a748b05)
+    http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt11
+    -> CVE-2015-5307 (54a20552e1eae07aa240fa370a0293e006b5faed)
+    -> CVE-2015-8104 (cbdb967af3d54993f5814f1cee0ed311a055377d)
+    -> CVE-2015-8374 (0305cd5f7fca85dae392b9ba85b116896eb7c1c7)
+  * Remove CVE-2015-5307.patch and CVE-2015-8104.patch, these are
+    merged in 3.19.8-ckt11
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 04 Jan 2016 21:19:20 +0100
 
