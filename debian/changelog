@@ -12,6 +12,10 @@ linux (3.19.3-10) jessie-wikimedia; urgency=medium
     -> CVE-2015-5307 (54a20552e1eae07aa240fa370a0293e006b5faed)
     -> CVE-2015-8104 (cbdb967af3d54993f5814f1cee0ed311a055377d)
     -> CVE-2015-8374 (0305cd5f7fca85dae392b9ba85b116896eb7c1c7)
+    http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt11
+    -> CVE-2013-7446 (7d267278a9ece963d77eefec61630223fce08c6c)
+    -> CVE-2015-7990 (8c7188b23474cca017b3ef354c4a58456f68303a)
+    -> CVE-2015-8660 (acff81ec2c79492b180fade3c2894425cd35a545)
   * Remove CVE-2015-5307.patch and CVE-2015-8104.patch, these are
     merged in 3.19.8-ckt11
 
