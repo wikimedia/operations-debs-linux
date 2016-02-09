@@ -1,3 +1,34 @@
+linux (3.19.3-11) jessie-wikimedia; urgency=medium
+
+  * Update to 3.19.8-ckt13:
+    CVE-2015-7513 (0185604c2d82c560dab2f2933a18f797e74ab5a8)
+    CVE-2015-7550 (b4a1b4f5047e4f54e194681125c74c0aa64d637d)
+    CVE-2015-8543 (79462ad02e861803b3840cc782248c7359451cd9)
+    CVE-2015-8550 (454d5d882c7e412b840e3c99010fe81a9862f6fb,
+                   0f589967a73f1f30ab4ac4dd9ce0bb399b4d6357,
+                   68a33bfd8403e4e22847165d149823a2e0e67c9c,
+                   1f13d75ccb806260079e0679d55d9253e370ec8a,
+                   18779149101c0dd43ded43669ae2a92d21b6f9cb,
+                   be69746ec12f35b484707da505c6c76ff06f97dc,
+                   8135cf8b092723dbfcc611fe6fdcb3a36c9951c5)
+    CVE-2015-8551 (454d5d882c7e412b840e3c99010fe81a9862f6fb,
+                   0f589967a73f1f30ab4ac4dd9ce0bb399b4d6357,
+                   68a33bfd8403e4e22847165d149823a2e0e67c9c,
+                   1f13d75ccb806260079e0679d55d9253e370ec8a,
+                   18779149101c0dd43ded43669ae2a92d21b6f9cb,
+                   be69746ec12f35b484707da505c6c76ff06f97dc,
+                   8135cf8b092723dbfcc611fe6fdcb3a36c9951c5)
+    CVE-2015-8552 (56441f3c8e5bd45aab10dd9f8c505dd4bec03b0d,
+                   5e0ce1455c09dd61d029b8ad45d82e1ac0b6c4c9,
+                   a396f3a210c3a61e94d6b87ec05a75d0be2a60d0,
+                   7cfb905b9638982862f0331b36ccaaca5d383b49,
+                   408fb0e5aa7fda0059db282ff58c3b2a4278baa0)
+    CVE-2015-8569 (09ccfd238e5a0e670d8178cf50180ea81ae09ae1)
+    CVE-2015-8575 (5233252fce714053f0151680933571a2da9cbfb4)
+    CVE-2015-8785 (3ca8138f014a913f98e6ef40e939868e1e9ea876)
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 09 Feb 2016 16:01:47 +0100
+
 linux (3.19.3-10) jessie-wikimedia; urgency=medium
 
   * Re-add maintainer scripts for 2 ABI
