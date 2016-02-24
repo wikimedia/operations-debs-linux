@@ -11,6 +11,13 @@ linux (3.19.3-11) jessie-wikimedia; urgency=medium
     CVE-2015-8767 (635682a14427d241bab7bbdeebb48a7d7b91638e)
     CVE-2016-2069 (71b3c126e61177eb693423f2e18a1914205b165e,
                    4eaffdd5a5fe6ff9f95e1ab4de1ac904d5e0fa8b)
+    CVE-2016-2543 (8030e2c78d3a91dd0d27fef37e91950dde333eba1
+    CVE-2016-2544 (3567eb6af614dac436c4b16a8d426f9faed639b3)
+    CVE-2016-2545 (ee8413b01045c74340aa13ad5bdf905de32be736)
+    CVE-2016-2546 (af368027a49a751d6ff4ee9e3f9961f35bb4fede)
+    CVE-2016-2547 (b5a663aa426f4884c71cd8580adae73f33570f0d)
+    CVE-2016-2548 (b5a663aa426f4884c71cd8580adae73f33570f0d)
+    CVE-2016-2549 (2ba1fe7a06d3624f9a7586d672b55f08f7c670f3)
   * http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt13:
     CVE-2015-7513 (0185604c2d82c560dab2f2933a18f797e74ab5a8)
     CVE-2015-7550 (b4a1b4f5047e4f54e194681125c74c0aa64d637d)
@@ -37,6 +44,7 @@ linux (3.19.3-11) jessie-wikimedia; urgency=medium
     CVE-2015-8569 (09ccfd238e5a0e670d8178cf50180ea81ae09ae1)
     CVE-2015-8575 (5233252fce714053f0151680933571a2da9cbfb4)
     CVE-2015-8785 (3ca8138f014a913f98e6ef40e939868e1e9ea876)
+    CVE-2015-8816 (e50293ef9775c5f1cf3fcc093037dd6a8c5684ea)
   * Drop patch for CVE-2016-0728, part of 3.19.8-ckt15
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 09 Feb 2016 16:01:47 +0100
