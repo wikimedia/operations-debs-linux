@@ -7,6 +7,8 @@ linux (3.19.3-11) jessie-wikimedia; urgency=medium
     CVE-2015-7566 (cb3232138e37129e88240a98a1d2aba2187ff57c)
     CVE-2016-2053 (0d62e9dd6da45bbf0f33a8617afc5fe774c8f45f)
     CVE-2016-0728 (23567fd052a9abb6d67fe8e7a9ccdd9800a540f2)
+    CVE-2016-0728 (23567fd052a9abb6d67fe8e7a9ccdd9800a540f2)
+    CVE-2016-2782 (cac9b50b0d75a1d50d6c056ff65c005f3224c8e0)
   * http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt14:
     CVE-2015-8767 (635682a14427d241bab7bbdeebb48a7d7b91638e)
     CVE-2016-2069 (71b3c126e61177eb693423f2e18a1914205b165e,
