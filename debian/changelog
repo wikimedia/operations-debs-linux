@@ -18,6 +18,7 @@ linux (3.19.3-11) jessie-wikimedia; urgency=medium
     CVE-2016-2085 (613317bd212c585c20796c10afe5daaa95d4b0a1)
     CVE-2016-2384 (07d86ca93db7e5cdf4743564d98292042ec21af7)
     CVE-2016-2847 (759c01142a5d0f364a462346168a56de28a80f52)
+    CVE-2016-2550 (415e3d3e90ce9e18727e8843ae343eda5a58fad6)
   * http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt15:
     CVE-2015-7833 (588afcc1c0e45358159090d95bf7b246fb67565f,
                    fa52bd506f274b7619955917abfde355e3d19ffe)
@@ -38,6 +39,7 @@ linux (3.19.3-11) jessie-wikimedia; urgency=medium
     CVE-2016-2547 (b5a663aa426f4884c71cd8580adae73f33570f0d)
     CVE-2016-2548 (b5a663aa426f4884c71cd8580adae73f33570f0d)
     CVE-2016-2549 (2ba1fe7a06d3624f9a7586d672b55f08f7c670f3)
+    CVE-2013-4312 (712f4aad406bb1ed67f3f98d04c044191f0ff593)
   * http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt13:
     CVE-2015-7513 (0185604c2d82c560dab2f2933a18f797e74ab5a8)
     CVE-2015-7550 (b4a1b4f5047e4f54e194681125c74c0aa64d637d)
@@ -88,6 +90,7 @@ linux (3.19.3-10) jessie-wikimedia; urgency=medium
     -> CVE-2013-7446 (7d267278a9ece963d77eefec61630223fce08c6c)
     -> CVE-2015-7990 (8c7188b23474cca017b3ef354c4a58456f68303a)
     -> CVE-2015-8660 (acff81ec2c79492b180fade3c2894425cd35a545)
+    -> CVE-2015-8840 (d2b9d2a5ad5ef04ff978c9923d19730cb05efd55)
   * Remove CVE-2015-5307.patch and CVE-2015-8104.patch, these are
     merged in 3.19.8-ckt11
   * CVE-2016-0728 (not present in original -10 changelog)
@@ -204,6 +207,7 @@ linux (3.19.3-1~exp1) experimental; urgency=medium
     https://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.19.3
       -> CVE-2015-2150 (af6fc858a35b90e89ea7a7ee58e66628c55c776b)
       -> CVE-2015-3331 (ccfe8c3f7e52ae83155cb038753f4c75b774ca8a)
+      -> CVE-2016-0823 (ab676b7d6fbf4b294bf198fb27ade5b0e865c7ce)
 
  -- maximilian attems <maks@debian.org>  Sun, 29 Mar 2015 20:14:33 +0200
 
