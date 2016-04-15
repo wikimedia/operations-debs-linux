@@ -91,6 +91,7 @@ linux (3.19.3-10) jessie-wikimedia; urgency=medium
     -> CVE-2015-7990 (8c7188b23474cca017b3ef354c4a58456f68303a)
     -> CVE-2015-8660 (acff81ec2c79492b180fade3c2894425cd35a545)
     -> CVE-2015-8840 (d2b9d2a5ad5ef04ff978c9923d19730cb05efd55)
+    -> CVE-2015-8845 (7f821fc9c77a9b01fe7b1d6e72717b33d8d64142)
   * Remove CVE-2015-5307.patch and CVE-2015-8104.patch, these are
     merged in 3.19.8-ckt11
   * CVE-2016-0728 (not present in original -10 changelog)
