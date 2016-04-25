@@ -1,5 +1,9 @@
 linux (3.19.3-11) jessie-wikimedia; urgency=medium
 
+  * http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt19:
+    CVE-2016-3136 (4e9a0b05257f29cf4b75f3209243ed71614d062e)
+    CVE-2016-3137 (c55aee1bf0e6b6feec8b2927b43f7a09a6d5f754)
+    CVE-2016-3140 (5a07975ad0a36708c6b0a5b9fea1ff811d0b0c1f)
   * http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt18:
     CVE-2016-3156 (fbd40ea0180a2d328c5adc61414dc8bab9335ce2)
     CVE-2016-2186 (9c6ba456711687b794dcf285856fc14e2c76074f)
@@ -68,6 +72,11 @@ linux (3.19.3-11) jessie-wikimedia; urgency=medium
     CVE-2015-8785 (3ca8138f014a913f98e6ef40e939868e1e9ea876)
     CVE-2015-8816 (e50293ef9775c5f1cf3fcc093037dd6a8c5684ea)
   * Drop patch for CVE-2016-0728, part of 3.19.8-ckt15
+  * Drop bmp085-Enable-building-as-a-module.patch, part of
+    3.19.8-ckt18
+  * Remove ipr hunk from firmware-remove-redundant-log-messages-from-drivers.patch,
+    it had marginal impact, was never upstreamed and clashes
+    with the 3.19.8-ckt19 patch set.
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 09 Feb 2016 16:01:47 +0100
 

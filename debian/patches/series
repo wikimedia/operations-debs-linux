@@ -58,7 +58,6 @@ features/arm/dts-sun7i-Add-dts-file-for-Bananapro-board.patch
 features/arm/ARM-dts-sunxi-Add-simplefb-nodes-for-de_be0-lcd0-de_.patch
 
 # Miscellaneous bug fixes
-bugfix/all/misc-bmp085-Enable-building-as-a-module.patch
 bugfix/all/kbuild-use-nostdinc-in-compile-tests.patch
 bugfix/all/disable-some-marvell-phys.patch
 debian/i2o-disable-i2o_ext_adaptec-on-64bit.patch
@@ -95,3 +94,4 @@ bugfix/all/stable-3.19.8-ckt15.patch
 bugfix/all/stable-3.19.8-ckt16.patch
 bugfix/all/stable-3.19.8-ckt17.patch
 bugfix/all/stable-3.19.8-ckt18.patch
+bugfix/all/stable-3.19.8-ckt19.patch
