@@ -1,5 +1,10 @@
 linux (3.19.3-11) jessie-wikimedia; urgency=medium
 
+  * http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt20:
+    CVE-2016-3951 (4d06dd537f95683aba3651098ae288b7cbff8274,
+                   1666984c8625b3db19a9abc298931d35ab7bc64b)
+    CVE-2016-3961 (103f6112f253017d7062cd74d17f4a514ed4485c)
+    CVE-2016-2187 (162f98dea487206d9ab79fc12ed64700667a894d)
   * http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt19:
     CVE-2016-3136 (4e9a0b05257f29cf4b75f3209243ed71614d062e)
     CVE-2016-3137 (c55aee1bf0e6b6feec8b2927b43f7a09a6d5f754)
@@ -13,6 +18,8 @@ linux (3.19.3-11) jessie-wikimedia; urgency=medium
     CVE-2016-0821 (8a5e5e02fc83aaf67053ab53b359af08c6c49aaf)
     CVE-2016-2185 (950336ba3e4a1ffd2ca60d29f6ef386dd2c7351d)
     CVE-2016-3138 (8835ba4a39cf53f705417b3b3a94eb067673f2c9)
+    CVE-2016-3138 (8835ba4a39cf53f705417b3b3a94eb067673f2c9)
+    CVE-2016-3157 (b7a584598aea7ca73140cb87b40319944dd3393f)
   * http://kernel.ubuntu.com/stable/ChangeLog-3.19.8-ckt17:
     CVE-2015-8830 (4c185ce06dca14f5cea192f5a2c981ef50663f2b,
                    stable-specific backport used)
